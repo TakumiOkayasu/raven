@@ -1,8 +1,13 @@
 {
   "permissions": {
     "allow": [
+<<<<<<< Updated upstream
       "Bash(git checkout:*)",
       "Bash(git pull:*)"
+=======
+      "Bash(mkdir:*)",
+      "Bash(git stash push:*)"
+>>>>>>> Stashed changes
     ]
   }
 }
