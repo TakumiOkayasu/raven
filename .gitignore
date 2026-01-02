@@ -120,3 +120,35 @@ iOSInjectionProject/
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,macos
 
+### Raven Project Specific ###
+# Claude Code temporary files
+claude_tmp/
+
+# Test results
+*.xcresult
+TestResults/
+CoverageResults/
+
+# Coverage reports
+coverage.json
+lcov.info
+
+# Archives
+*.xcarchive
+
+# Distribution packages
+*.dmg
+*.pkg
+
+# Signing
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.pem
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
